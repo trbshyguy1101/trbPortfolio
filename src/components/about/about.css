@@ -1,0 +1,164 @@
+#about {
+    background: url(../../assets/mountain-top-monochrome-2147699-wallhere.com.jpg) no-repeat center center/cover;
+    color: white;
+    height: 450px;
+    width: 100vw;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+@layer scroll-dynamic {
+    @keyframes scroll-dynamic {
+        from {
+            background-position-y: top;
+        } to {
+            background-position-y: bottom;
+        }
+    }
+
+    @media (prefers-reduced-motion: no-preference) {
+        @supports (animation-timeline: scroll()) {
+            #about {
+                animation: scroll-dynamic ease-in 5s both;
+                animation-timeline: scroll();
+            }
+        }
+    }
+}
+
+.box-shadowing {
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 100%;
+    width: 100%;
+    padding: 25px 50px;
+}
+
+.the-about-section-itself {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+.about-header {
+    font-size: 2rem;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.vertical-bar {
+    margin-right: 40px;
+    border: 2px solid white;
+    height: 10px;
+}
+
+.image-container {
+    width: 150px;
+    height: 150px;
+    border-radius: 5%;
+    margin-bottom: 20px;
+    aspect-ratio: 1/1;
+}
+
+.image-container-1 {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border-radius: 5%;
+    margin-bottom: 20px;
+    aspect-ratio: 1/1;
+    background-color: white;
+    border: 2px solid white;
+}
+
+.image-container-2 {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border-radius: 5%;
+    margin-bottom: 20px;
+    aspect-ratio: 1/1;
+    background-color: lightgray;
+    border: 2px solid lightgray;
+}
+
+.image-container-3 {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border-radius: 5%;
+    margin-bottom: 20px;
+    aspect-ratio: 1/1;
+    background-color: rgb(75, 75, 75);
+    border: 2px solid rgb(75, 75, 75);
+}
+
+@layer scroll {
+    @keyframes slide-in {
+        from {
+            opacity: 0;
+            transform: translateY(-25%);
+        } to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    @keyframes slide-in-1 {
+        from {
+            opacity: 0;
+            transform: translateY(-20%);
+        } to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    @keyframes slide-in-2 {
+        from {
+            opacity: 0;
+            transform: translateY(-15%);
+        } to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    @keyframes slide-in-3 {
+        from {
+            opacity: 0;
+            transform: translateY(-5%);
+        } to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    @media (prefers-reduced-motion: no-preference) {
+        .image-container {
+            animation: slide-in ease-out both 0.8s;
+            animation-range: 25vh 75vh;
+        }
+        .image-container-1 {
+            animation: slide-in-1 ease-out both 0.7s;
+            animation-range: 25vh 75vh;
+        }
+        .image-container-2 {
+            animation: slide-in-2 ease-out both 0.6s;
+            animation-range: 25vh 75vh;
+        }
+        .image-container-3 {
+            animation: slide-in-3 ease-out both 0.5s;
+            animation-range: 25vh 75vh;
+        }
+    }
+}
+
+.about-header>h1 {
+    width: 300px;
+}
+
+.about-content {
+    max-height: 400px;
+    overflow-y: auto;
+    
+}
