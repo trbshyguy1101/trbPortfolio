@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+#intro {
+    height: 550px;
+    width: 100vw;
+    margin: 0 auto;
+    max-width: 100rem;
+    max-height: 800px;
+    padding: 5rem 8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#intro .intro-lead {
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+}
+
+#intro .intro-title {
+    font-size: 4rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    margin-bottom: -5px;
+}
+
+#intro .intro-title-highlight {
+    background: linear-gradient(135deg, rgb(0, 157, 128) 0%, rgb(255, 255, 255) 100%);
+    background-clip: text;
+    font-weight: 700;
+    transition: all 1s ease-in-out;
+    -webkit-text-fill-color: transparent;
+}
+
+#intro .intro-title-highlight:hover {
+    background: linear-gradient(135deg, rgba(0, 157, 128, 1) 0%, rgb(255, 255, 255) 75%);
+    background-clip: text;
+}
+
+#intro .intro-presub {
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+
+#intro .intro-sub {
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    margin-bottom: 1rem;
+}
+
+#intro .intro-img {
+    object-fit: cover;
+    height: 200px;
+    width: 200px;
+    z-index: -1;
+    transition: all 0.2s ease-in-out;
+}
+
+#intro .intro-img:hover {
+    transform: translate(-3px, -3px);
+    box-shadow: 4px 4px rgb(0, 255, 204);
+}
