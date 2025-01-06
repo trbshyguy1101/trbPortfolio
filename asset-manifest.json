@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.0f783feb.css",
-    "main.js": "/static/js/main.0c2000ab.js",
-    "static/media/mountain-top-monochrome-2147699-wallhere.com.jpg": "/static/media/mountain-top-monochrome-2147699-wallhere.com.a78da4b560336464af3b.jpg",
-    "static/media/8f650a2e_high7.png": "/static/media/b962c9a5f90e3592d5f35fb157dcbcb48f650a2e_high7.e1f25687767ec13a22f4.png",
-    "static/media/cute-anime-girl-pfp-3.png": "/static/media/cute-anime-girl-pfp-3.429cf88a4ac1f9a3eb83.png",
-    "static/media/wowrenameico.ico": "/static/media/wowrenameico.b6729217ed6c7db0efee.ico",
-    "static/media/wowplayerico.jpg": "/static/media/wowplayerico.f401c95c82513643835d.jpg",
-    "static/media/yes.jpg": "/static/media/yes.a2ab70f64795e879e005.jpg",
-    "static/media/trb_logo.png": "/static/media/trb_logo.6ab609d96b39cb9abc27.png",
-    "static/media/intro.jpg": "/static/media/intro.8877f5fd2397875cb455.jpg",
-    "static/media/grass.jpg": "/static/media/grass.973e4a065d2a11a18c14.jpg",
-    "static/media/kaching.mp3": "/static/media/kaching.eb3f7c84dc7d7974b9ff.mp3",
-    "static/media/unnamed.webp": "/static/media/unnamed.ff94a63048d4b7fbca1b.webp",
-    "static/media/cirnosim.jpg": "/static/media/cirnosim.25b3dc2d0fdf8b3accbc.jpg",
-    "index.html": "/index.html",
-    "main.0f783feb.css.map": "/static/css/main.0f783feb.css.map",
-    "main.0c2000ab.js.map": "/static/js/main.0c2000ab.js.map"
+    "main.css": "./static/css/main.ea23e89a.css",
+    "main.js": "./static/js/main.f87536d8.js",
+    "static/media/mountain-top-monochrome-2147699-wallhere.com.jpg": "./static/media/mountain-top-monochrome-2147699-wallhere.com.a78da4b560336464af3b.jpg",
+    "static/media/8f650a2e_high7.png": "./static/media/b962c9a5f90e3592d5f35fb157dcbcb48f650a2e_high7.e1f25687767ec13a22f4.png",
+    "static/media/cute-anime-girl-pfp-3.png": "./static/media/cute-anime-girl-pfp-3.429cf88a4ac1f9a3eb83.png",
+    "static/media/wowrenameico.ico": "./static/media/wowrenameico.b6729217ed6c7db0efee.ico",
+    "static/media/wowplayerico.jpg": "./static/media/wowplayerico.f401c95c82513643835d.jpg",
+    "static/media/yes.jpg": "./static/media/yes.a2ab70f64795e879e005.jpg",
+    "static/media/trb_logo.png": "./static/media/trb_logo.6ab609d96b39cb9abc27.png",
+    "static/media/intro.jpg": "./static/media/intro.8877f5fd2397875cb455.jpg",
+    "static/media/grass.jpg": "./static/media/grass.973e4a065d2a11a18c14.jpg",
+    "static/media/kaching.mp3": "./static/media/kaching.eb3f7c84dc7d7974b9ff.mp3",
+    "static/media/unnamed.webp": "./static/media/unnamed.ff94a63048d4b7fbca1b.webp",
+    "static/media/cirnosim.jpg": "./static/media/cirnosim.25b3dc2d0fdf8b3accbc.jpg",
+    "index.html": "./index.html",
+    "main.ea23e89a.css.map": "./static/css/main.ea23e89a.css.map",
+    "main.f87536d8.js.map": "./static/js/main.f87536d8.js.map"
   },
   "entrypoints": [
-    "static/css/main.0f783feb.css",
-    "static/js/main.0c2000ab.js"
+    "static/css/main.ea23e89a.css",
+    "static/js/main.f87536d8.js"
   ]
 }
