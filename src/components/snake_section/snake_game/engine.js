@@ -1,6 +1,6 @@
 import * as THREE from 'three';
-import background from '../../../assets/grass.jpg';
-import kaching from '../../../assets/kaching.mp3';
+import background from './grass.jpg';
+import kaching from './kaching.mp3';
 
 let onAppleCollect = () => {};
 
@@ -324,8 +324,8 @@ const Engine = (mountpoint, isPaused, mountpointDimensions) => {
         updateSnakePos(snakeBodyList, snake);
         //checkSnakeHeadBodyCollision(snakeBodyList, snake, apple, bg, scene);
         
-        console.log(snake.position.x, snake.position.y);
-        console.log(apple.position.x, apple.position.y);
+        // console.log(snake.position.x, snake.position.y);
+        // console.log(apple.position.x, apple.position.y);
 
         // dont move these (the if it works it works gaming)
         return () => {
@@ -339,12 +339,12 @@ const Engine = (mountpoint, isPaused, mountpointDimensions) => {
 };
 
 export function setOnAppleCollect(callback) {
-    console.log('setting callback');
+    // console.log('setting callback');
     onAppleCollect = callback;
 }
 
 export function setOnGameOver(callback) {
-    console.log('setting callback');
+    // console.log('setting callback');
     onGameOver = callback;
 }
 

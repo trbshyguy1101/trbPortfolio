@@ -8,14 +8,15 @@ function App() {
   return (
     <>
       <Navbar />
-      <BrowserRouter>
+      <Main_page />
+      {/* <BrowserRouter>
         <Routes>
           <Route path="/" element={<Main_page/>}>
             <Route index element={<Main_page/>} />
           </Route>
           <Route path="*" element={ <Error404/> } />
         </Routes>
-      </BrowserRouter>
+      </BrowserRouter> */}
       <Footer />
     </>
   );

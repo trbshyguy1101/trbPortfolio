@@ -1,10 +1,12 @@
 #about {
     background: url(../../assets/mountain-top-monochrome-2147699-wallhere.com.jpg) no-repeat center center/cover;
+    
     color: white;
     height: 450px;
     width: 100vw;
     margin-top: 0px;
     margin-bottom: 20px;
+    
 }
 
 @layer scroll-dynamic {

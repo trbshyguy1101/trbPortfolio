@@ -1,6 +1,6 @@
 #projects {
     width: 100vw;
-    max-width: 100rem;
+    /* max-width: 100rem; */
     padding: 30px 40px;
     align-items: center;
 }

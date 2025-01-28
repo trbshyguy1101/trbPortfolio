@@ -19,13 +19,14 @@ const About = () => {
       <div className="box-shadowing">
       <div className="the-about-section-itself">
         <div className="about-header">
-            <div className="image-container-3"></div>
+            {/* <div className="image-container-1"></div> 
             <div className="image-container-2"></div>
-            <div className="image-container-1"></div>
+            <div className="image-container-3"></div> */}
             <div 
               className="image-container"
               style={{background: `url(${randomizedImage}) no-repeat center center/cover`}}
             ></div>
+            
             <h1>About Me</h1>
         </div>
         <div className="vertical-bar"></div>
