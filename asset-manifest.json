@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.54746818.css",
-    "main.js": "./static/js/main.f87536d8.js",
+    "main.js": "./static/js/main.3a70bfb5.js",
     "static/media/mountain-top-monochrome-2147699-wallhere.com.jpg": "./static/media/mountain-top-monochrome-2147699-wallhere.com.a78da4b560336464af3b.jpg",
     "static/media/8f650a2e_high7.png": "./static/media/b962c9a5f90e3592d5f35fb157dcbcb48f650a2e_high7.e1f25687767ec13a22f4.png",
     "static/media/cute-anime-girl-pfp-3.png": "./static/media/cute-anime-girl-pfp-3.429cf88a4ac1f9a3eb83.png",
@@ -16,10 +16,10 @@
     "static/media/cirnosim.jpg": "./static/media/cirnosim.25b3dc2d0fdf8b3accbc.jpg",
     "index.html": "./index.html",
     "main.54746818.css.map": "./static/css/main.54746818.css.map",
-    "main.f87536d8.js.map": "./static/js/main.f87536d8.js.map"
+    "main.3a70bfb5.js.map": "./static/js/main.3a70bfb5.js.map"
   },
   "entrypoints": [
     "static/css/main.54746818.css",
-    "static/js/main.f87536d8.js"
+    "static/js/main.3a70bfb5.js"
   ]
 }
