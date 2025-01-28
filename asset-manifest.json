@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "./static/css/main.ea23e89a.css",
+    "main.css": "./static/css/main.54746818.css",
     "main.js": "./static/js/main.f87536d8.js",
     "static/media/mountain-top-monochrome-2147699-wallhere.com.jpg": "./static/media/mountain-top-monochrome-2147699-wallhere.com.a78da4b560336464af3b.jpg",
     "static/media/8f650a2e_high7.png": "./static/media/b962c9a5f90e3592d5f35fb157dcbcb48f650a2e_high7.e1f25687767ec13a22f4.png",
@@ -15,11 +15,11 @@
     "static/media/unnamed.webp": "./static/media/unnamed.ff94a63048d4b7fbca1b.webp",
     "static/media/cirnosim.jpg": "./static/media/cirnosim.25b3dc2d0fdf8b3accbc.jpg",
     "index.html": "./index.html",
-    "main.ea23e89a.css.map": "./static/css/main.ea23e89a.css.map",
+    "main.54746818.css.map": "./static/css/main.54746818.css.map",
     "main.f87536d8.js.map": "./static/js/main.f87536d8.js.map"
   },
   "entrypoints": [
-    "static/css/main.ea23e89a.css",
+    "static/css/main.54746818.css",
     "static/js/main.f87536d8.js"
   ]
 }
