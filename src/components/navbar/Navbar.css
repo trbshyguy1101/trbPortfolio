@@ -5,7 +5,7 @@
     height: 5rem;
     width: 100vw;
     margin: 0 auto;
-    max-width: 100rem;
+    /* max-width: 100rem; */
     padding: 1rem 3rem;
     display: flex;
     align-items: center;
