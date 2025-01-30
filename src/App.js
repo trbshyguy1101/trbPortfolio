@@ -1,23 +1,24 @@
 import React from 'react';
-import Main_page from './pages/container_of_all';
+import MainPage from './pages/container_of_all';
 import Navbar from './components/navbar/Navbar';
 import Footer from './components/footer/footer';  
 import { Routes, Route, BrowserRouter } from 'react-router-dom';
-import Error404 from './pages/error_pages/Error404';
+import { Billboard } from './pages/billboard_page/Billboard';
 function App() {
   return (
     <>
+    <BrowserRouter>
       <Navbar />
-      <Main_page />
-      {/* <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Main_page/>}>
-            <Route index element={<Main_page/>} />
-          </Route>
-          <Route path="*" element={ <Error404/> } />
-        </Routes>
-      </BrowserRouter> */}
-      <Footer />
+        
+          <Routes>
+            <Route path="/">
+              <Route path="/" index element={<MainPage/>} />
+              <Route path="/billboard" element={ <Billboard/> } />
+            </Route>
+          </Routes>
+        
+      {/* <Footer /> */}
+      </BrowserRouter>
     </>
   );
 }

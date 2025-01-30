@@ -1,0 +1,46 @@
+.billboard-header {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    padding-bottom: 25px;
+    background-image: repeating-linear-gradient(
+        -45deg,
+        #272727,
+        #272727 10px,
+        #000 10px,
+        #000 20px
+    );
+    background-size: 199% 199%; /* magic numbers */
+    animation: gradientMove 30s linear infinite;
+}
+
+@keyframes gradientMove {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: 100% 100%;
+    }
+}
+
+.billboard-body {
+    padding: 10px;
+    display: grid;
+    max-height: 200px;
+}
+
+@media (min-width: 600px) {
+    .billboard-body {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 900px) {
+    .billboard-body {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+}

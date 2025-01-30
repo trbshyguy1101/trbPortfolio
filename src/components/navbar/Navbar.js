@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-scroll';
+import { Link } from 'react-router-dom';
 import './Navbar.css';
 import logo_chat from '../../assets/chat.png';
 import trb_logo from '../../assets/trb_logo.png';
@@ -11,10 +11,12 @@ const Navbar = () => {
         <nav className="navbar">
             <img src={trb_logo} alt="Logo" className="logo"/>
             <div className="nav-links">
-                <Link className='desktopMenuItem' to="intro" smooth={true} duration={1000}>Intro</Link>
+            <Link className='desktopMenuItem' to="/">Home</Link>
+                <Link className='desktopMenuItem' to="/billboard">Billboard</Link>
+                {/* <Link className='desktopMenuItem' to="intro" smooth={true} duration={1000}>Intro</Link>
                 <Link className='desktopMenuItem' to="about" smooth={true} duration={1000}>About</Link>
                 <Link className='desktopMenuItem' to="projects" smooth={true} duration={1000}>Projects</Link>
-                <Link className='desktopMenuItem' to="snake" smooth={true} duration={1000}>Snake</Link>
+                <Link className='desktopMenuItem' to="snake" smooth={true} duration={1000}>Snake</Link> */}
             </div>
             <Popup trigger={
             <button className='desktopMenuButton'>

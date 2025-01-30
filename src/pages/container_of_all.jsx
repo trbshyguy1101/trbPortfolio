@@ -4,7 +4,7 @@ import Projects from '../components/projects/projects';
 import Snake from '../components/snake_section/Snake';
 import About from '../components/about/about'
 
-const Main_page = () => {
+const MainPage = () => {
   return (
     <div className="App">
       <Intro/>
@@ -15,4 +15,4 @@ const Main_page = () => {
   );
 }
 
-export default Main_page;
+export default MainPage;
